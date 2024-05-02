@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 84%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/img/pexels-pixabay-206724.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar{
+    /* border: 2px solid red; */
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.row{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    /* border: 1px solid rgb(40, 224, 86); */
+    flex-basis: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    font-size: 13px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 13px;
+    padding: 12px 0px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.card{
+    /* border: 1px solid blue; */
+    width: 200px;
+    height: 230px;
+    box-shadow: 2px 2px 15px rgb(27, 26, 26);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.2s;
+}
+.card1{
+    background-image: url('/img/fabian-struwe-4cloovdyuvw-unsplash.jpg');
+}
+.card2{
+    background-image: url('/img/111.jpg');
+}
+.card3{
+    background-image: url('/img/333.jpg');
+}
+.card4{
+    background-image: url('/img/222.jpg');
+}
+.card5{
+    background-image: url('/img/pexels-pixabay-210307.jpg');
+}
+.card6{
+    background-image: url('/img/pexels-taryn-elliott-3889891.jpg');
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: white;
+    text-shadow: 0  0  5px  rgb(109, 109, 109);
+}
+.card p{
+    text-shadow: 0  0  15px #000;
+    font-size: 11px;
+    padding-top: 10px;
+}
